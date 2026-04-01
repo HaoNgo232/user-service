@@ -1,0 +1,15 @@
+node_modules
+dist
+
+# Env files — chỉ commit .env.example, KHÔNG commit giá trị thật
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
+*.db
+*.db-shm
+*.db-wal
+
+/src/generated/prisma
